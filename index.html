@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Example Gallery for Technical</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="Example Gallery for Technical">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="css/dependencies/justifiedGallery.min.css" />
+    <link rel="stylesheet" href="css/styles/testStyles.css" />
+    <link rel="stylesheet" href="css/styles/navigation.css" />
+    <script src="js/dependencies/jquery.min.js"></script>
+    <script src="js/dependencies/jquery.justifiedGallery.min.js"></script>
+    <script src="js/dependencies/blazy.js"></script>
+    <script src="js/services/unsplash.js"></script>
+    <script src="js/scripts/index.js"></script>
+    <meta property="og:title" content="Example Gallery for Technical" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Example Gallery for Technical" />
+</head>
+
+<body>
+    <div class="navbar">
+        <a>Logo</a>
+    </div>
+    <article>
+        <header>
+            <div class="pageHeading">
+                <h1 class="header">Free creative resources :) </h1>
+                <p>
+                    <a class="subHeader">
+                        <b>Safe to use </b> images, PSD Mockups and Vectors.
+                    </a>
+                </p>
+        </header>
+        </div>
+    </article>
+    <section>
+        <select class="dropdown" id="change_chart" onchange="searchImages(this)">
+            <option value="1" selected>All</option>
+            <option value="2">Nature</option>
+            <option value="3">Industry</option>
+        </select>
+        <div class="container">
+            <div class="grid" id="posts">
+            </div>
+        </div>
+        <div id="more">
+            <button class="loadButton" onclick="addMore();">More</button>
+        </div>
+    </section>
+    <footer>
+        <p class="closingStatement">Your home for inspirational design and beautiful images.</p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,9 +1,11 @@
 .header{
     margin: 0 0 .28rem;
+    font-family: 'Merriweather', serif;
     font-size: calc(2.22rem + .8899999999999997 * ((100vw - 20rem) / 140));
 }
 
 .subHeader{
+    font-family: 'Merriweather', serif;
     margin: 0 0 .28rem;
     font-size: calc(1.0rem + .8899999999999997 * ((100vw - 30rem) / 140));
 }
@@ -15,26 +17,39 @@
     width: 100%;
 }
 
-.loadButton{
-    display: block;
-    margin: 30px auto;
-    padding: 1vw 4vw 1vw 4vw;
-    overflow: hidden;
-    border-width: 0;
-    outline: none;
-    border-radius: 2px;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.253);
-    background-color: black;
-    color: #ecf0f1;
-}
-
-.dropdown{
-    padding: 5px;
-    margin-left: 2vh;
-}
-
 .closingStatement{
     text-align: center;
     padding-top: 12vh;
+    padding-bottom: 4vh;
     font-size: calc(1.0rem + .8899999999999997 * ((100vw - 30rem) / 140));
+}
+
+.container{
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.blockContainer{
+    margin: 5vw;
+}
+
+.footerBar{
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    left: 0px;
+    color:  white;
+}
+
+.footerStatement{
+    font-family: 'Merriweather', serif;
+    margin: 0 0 .28rem;
+    font-size: calc(1.0rem + .8899999999999997 * ((100vw - 30rem) / 140));
+}
+
+.footerContactStatement{
+    font-family: 'Merriweather', serif;
+    color: #38deaf;
+    margin: 0 0 .28rem;
+    font-size: large
 }

@@ -8,7 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="css/dependencies/justifiedGallery.min.css" />
     <link rel="stylesheet" href="css/styles/testStyles.css" />
-    <link rel="stylesheet" href="css/styles/navigation.css" />
+    <link rel="stylesheet" href="css/styles/controls/controls.css">
+    <link rel="stylesheet" href="css/styles/navigation/navigation.css" />
+    <link href="https://fonts.googleapis.com/css?family=Cabin|Merriweather" rel="stylesheet">
     <script src="js/dependencies/jquery.min.js"></script>
     <script src="js/dependencies/jquery.justifiedGallery.min.js"></script>
     <script src="js/dependencies/blazy.js"></script>
@@ -21,7 +23,7 @@
 
 <body>
     <div class="navbar">
-        <a>Logo</a>
+        <a class="logo">Raw Technical</a>
     </div>
     <article>
         <header>
@@ -37,7 +39,7 @@
     </article>
     <section>
         <select class="dropdown" id="change_chart" onchange="searchImages(this)">
-            <option value="1" selected>All</option>
+            <option value="1" selected>All Images</option>
             <option value="2">Nature</option>
             <option value="3">Industry</option>
         </select>
@@ -49,8 +51,23 @@
             <button class="loadButton" onclick="addMore();">More</button>
         </div>
     </section>
-    <footer>
+    <aside>
         <p class="closingStatement">Your home for inspirational design and beautiful images.</p>
+    </aside>
+    <footer class="footerBar">
+        <div class="container">
+            <div class="blockContainer">
+                <div>
+                    <div class="block">
+                        <div class="footerStatement">
+                            <p>Want to get in touch? We’d love to hear from you!</p>
+                        </div>
+                        <div class="footerContactStatement">
+                                <p>Contact@rawtechnical.com</p>
+                            </div>
+                    </div>
+                </div>
+            </div>
     </footer>
 
 </body>

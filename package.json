@@ -1,0 +1,31 @@
+{
+  "name": "rawtechnical",
+  "version": "1.0.0",
+  "description": "Assumtions/decisions,",
+  "main": "index.js",
+  "scripts": {
+    "babel": "babel js/scripts -d build/main.bundle.js",
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Miracle23/RawTechnicalTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Miracle23/RawTechnicalTest/issues"
+  },
+  "homepage": "https://github.com/Miracle23/RawTechnicalTest#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2015-rollup": "^3.0.0",
+    "babel-preset-minify": "^0.3.0",
+    "http-server": "^0.11.1",
+    "rollup": "^0.55.5",
+    "rollup-plugin-babel": "^3.0.3",
+    "rollup-plugin-uglify": "^3.0.0"
+  }
+}
